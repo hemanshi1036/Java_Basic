@@ -1,4 +1,4 @@
-import java.util.RandomAccess;
+import java.util.Random;
 class matrix{
 	public static void main(String[] args){
 		
