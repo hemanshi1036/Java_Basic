@@ -16,4 +16,4 @@ public class equation {
 
     }
 }
-
+// tgis is a basic of java
