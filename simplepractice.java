@@ -1,4 +1,4 @@
-package cllg_manual;
+//package cllg_manual;
 class Circle{
     public int radius;
     Circle(int r){
@@ -23,7 +23,7 @@ class Cylinder extends Circle{
     }
 }
 
-public class ch10practiceset {
+public class simplepractice {
     public static void main(String[] args) {
         // problem 1
         Circle obj = new Circle(12);
