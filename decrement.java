@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Decrising_order {
+public class decrement{
     public static void main(String[] args) {
 
         System.out.println("Enter Three Integer :");
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
+        Scanner a1 = new Scanner(System.in);
+        int a = a1.nextInt();
 
         Scanner sc1 = new Scanner(System.in);
         int b = sc1.nextInt();
