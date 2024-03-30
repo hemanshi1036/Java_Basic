@@ -41,7 +41,7 @@ class matrix{
 
 }
 		System.out.println("");
-			if(count % 2 == 0){
+			if(count1 % 2 == 0){
 				System.out.println("Number of '1' in column is even" );
 			}
 			else{
