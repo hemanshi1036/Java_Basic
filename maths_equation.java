@@ -1,4 +1,4 @@
-public class equation {
+public class maths_equation {
     public static void main(String[] args){
         float a = 3.4f;
         float b = 50.2f;

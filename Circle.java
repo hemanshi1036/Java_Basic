@@ -22,7 +22,7 @@ class Cylinder extends Circle{
     }
 }
 
-public class ch10practiceset {
+public class Circle{
     public static void main(String[] args) {
         // problem 1
         Circle obj = new Circle(12);
