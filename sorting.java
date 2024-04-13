@@ -1,6 +1,4 @@
-// public class sorting {
-    
-// }
+
 public class sorting {
     public static void printArray(int arr[]){
         for(int i = 0; i<=arr.length; i++) {
@@ -23,3 +21,5 @@ public class sorting {
                 }
             }
         }
+    }
+}
