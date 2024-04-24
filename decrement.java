@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// decrement of the number
 public class decrement{
     public static void main(String[] args) {
 

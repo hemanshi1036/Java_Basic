@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// calculate area of the circle.
 class AreaCalculate{
 
     public double area(double side){
