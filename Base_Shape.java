@@ -1,5 +1,6 @@
 import java.util.Scanner;
 class Shape {
+    // it is a base clss protected perametres
     protected double width;
     protected double height;
     public void getData() {
@@ -23,6 +24,8 @@ class Rectangle extends Shape {
 System.out.println("Area of Rectangle: " + area);
     }
 }
+
+//main class would be run
 public class Base_Shape {
     public static void main(String[] args) {
         Triangle triangle = new Triangle();
