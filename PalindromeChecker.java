@@ -1,3 +1,7 @@
+// it can check the string is plindrome or not.
+
+
+
 public class PalindromeChecker {
     public static void main(String[] args) {
         // Check if 5 arguments are provided
