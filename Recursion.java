@@ -10,8 +10,7 @@ public public class Recursion {
         } 
         else{
             return 0;
-        }
     }
-} {
+} 
     
 }
