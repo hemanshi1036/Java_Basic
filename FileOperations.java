@@ -33,25 +33,25 @@ public class FileOperations {
             // }
 
 
-            // try{
-            //     FileOutputStream f = new FileOutputStream("D:\\Hemanshi\\1.txt");
-            //     try{
-            //         f.write(65);
-            //         f.write(98);
-            //         f.write(3);
-            //         String s="Welcome to javaTpoint.";    
-            //         byte b[]=s.getBytes();//converting string into byte array    
+            try{
+                FileOutputStream f = new FileOutputStream("D:\\Hemanshi\\1.txt");
+                try{
+                    f.write(65);
+                    f.write(98);
+                    f.write(3);
+                    String s="Welcome to javaTpoint.";    
+                    byte b[]=s.getBytes();//converting string into byte array    
 
-            //         f.write(b);
-            //     }
-            //     finally{
-            //         f.close();
-            //     }
-            //     System.out.println("Successfully wrote in file....");
-            // }
-            // catch(IOException e){
-            //     System.out.println(e);
-            // }
+                    f.write(b);
+                }
+                finally{
+                    f.close();
+                }
+                System.out.println("Successfully wrote in file....");
+            }
+            catch(IOException e){
+                System.out.println(e);
+            }
 
             try{
               FileInputStream fin=new FileInputStream("D:\\Hemanshi\\1.txt");    
