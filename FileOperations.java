@@ -17,22 +17,32 @@ public class FileOperations {
         // else{
         //     System.out.println("File does not exists....");
         // }
-            // try{
-            //     FileWriter f = new FileWriter("D:\\Hemanshi\\1.txt");
-            //     try{
-            //         f.write("Hemanshi is the best coder.....");
+        //comment start
+            try{
+                FileWriter f = new FileWriter("D:\\Hemanshi\\1.txt");
+                try{
+                    f.write("Hemanshi is the best coder.....");
 
-            //     }
-            //     finally{
-            //         f.close();
-            //     }
-            //     System.out.println("Successfully wrote in file....");
-            // }
-            // catch(IOException e){
-            //     System.out.println(e);
-            // }
+                }
+                finally{
+                    f.close();
+                }
+                System.out.println("Successfully wrote in file....");
+            }
+            catch(IOException e){
+                System.out.println(e);
+            }
 
 
+
+
+
+
+
+
+        //comment end
+
+//comment
             try{
                 FileOutputStream f = new FileOutputStream("D:\\Hemanshi\\1.txt");
                 try{
@@ -52,7 +62,7 @@ public class FileOperations {
             catch(IOException e){
                 System.out.println(e);
             }
-
+//comment end
             try{
               FileInputStream fin=new FileInputStream("D:\\Hemanshi\\1.txt");    
             //   int i=fin.read();   (these can read only one character)
