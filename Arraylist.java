@@ -22,7 +22,7 @@ public static void main(String[] args) {
     stack.push("Ayush");  
     stack.push("Garvit");  
     stack.push("Amit");  
-    stack.push("Ashish");  
+    stack.push("jaynish");  
     stack.push("Garima");  
     stack.pop();  
     Iterator<String> itr=stack.iterator();  
@@ -35,18 +35,18 @@ set.add("Ravi");
 set.add("Vijay");  
 set.add("Ravi");  
 set.add("Ajay");  
-//Traversing elements  
-// Iterator<String> itr1 =set.iterator();  
-// while(itr1.hasNext()){  
-// System.out.println(itr1.next());  
+Traversing elements  
+Iterator<String> itr1 =set.iterator();  
+while(itr1.hasNext()){  
+System.out.println(itr1.next());  
 
-// }  
+}  
 
-// for(int i = 0; i<set.size(); i++){
-//     System.out.print(set.get(i));
-//     System.out.print(", ");
+for(int i = 0; i<set.size(); i++){
+    System.out.print(set.get(i));
+    System.out.print(", ");
     
-// }
+}
 for (String str1 : set) {
 System.out.println(str1);
     
