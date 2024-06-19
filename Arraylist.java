@@ -35,7 +35,7 @@ set.add("Ravi");
 set.add("Vijay");  
 set.add("Ravi");  
 set.add("Ajay");  
-Traversing elements  
+//Traversing elements  
 Iterator<String> itr1 =set.iterator();  
 while(itr1.hasNext()){  
 System.out.println(itr1.next());  
