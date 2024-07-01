@@ -1,7 +1,7 @@
-3.	Write a program that finds area of any shape by overloading area () method for Square, Rectangle, Triangle and Square.
+// 3.	Write a program that finds area of any shape by overloading area () method for Square, Rectangle, Triangle and Square.
 
-Program:
-Import java.util.*;
+// Program:
+import java.util.*;
 
  public class AreaCalculator {
   
