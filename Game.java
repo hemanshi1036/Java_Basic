@@ -27,17 +27,17 @@ class Guess_The_Number {
          inputNumber = sc.nextInt();
     }
 
-    boolean isCorrect() {
-        noOfGuesses++;
-        if (inputNumber == number) {
-            return true;
-           // System.out.println("You Guess the right number in %d attemps", noOfGuesses);
-        } else if (inputNumber < number) {
-            System.out.println("TOO LESS!!!");
-        } else if (inputNumber > number){
-            System.out.println("TOO HIGH!!!");
-        }
-            return false;
+    // boolean isCorrect() {
+    //     noOfGuesses++;
+    //     if (inputNumber == number) {
+    //         return true;
+    //        // System.out.println("You Guess the right number in %d attemps", noOfGuesses);
+    //     } else if (inputNumber < number) {
+    //         System.out.println("TOO LESS!!!");
+    //     } else if (inputNumber > number){
+    //         System.out.println("TOO HIGH!!!");
+    //     }
+    //         return false;
     }
 }
 
